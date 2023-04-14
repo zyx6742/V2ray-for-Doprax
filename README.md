@@ -5,8 +5,8 @@ Telegram: https://t.me/HiaiFeng <br>
 
 # 简介：
 本项目用于在 Doprax.com 免费服务上部署 V2ray ，采用的方案为 Nginx + WebSocket + VMess/VLess + TLS。速度与 Replit 相比较慢，但是官方宣传不限流量，服务启动后永不停机。
+
 # 注意事项：
-<p><b><li>由于大量用户涌入 Doprax , 目前服务器超过负载，在部署时可能会出现 "Server Error (500)" 或 "Bad Gateway" 提示，已联系 Doprax 官方，对方回复会尽快增加服务器，请大家耐心等待。</li></b></p>
 <p><b><li>请勿滥用，账号封禁风险自负。</li></b></p>
 <p><b><li>部署完成如发现不能上网，请检查域名是否被墙，可使用 Cloudflare CDN 解决。</li></b></p>
 
@@ -29,10 +29,15 @@ ENV VLESS_WSPATH /vless
 
 <p>2、客户端配置</p>
 <p>节点客户端配置需要手动进行，下面以 V2rayN 为例。
-<p>下图为 VMess 配置示意图，请修改标示内容，其他设置于图片中显示一致。</p>
+<p>下图为 VMess 配置示意图，请修改标示内容，其他设置与图片中显示一致。</p>
 <img src="https://www.hicairo.com/zb_users/upload/2022/12/202212291672276258394161.webp">
-<p>下图为 VMess 配置示意图，请修改标示内容，其他设置于图片中显示一致。</p>
+<p>下图为 VLess 配置示意图，请修改标示内容，其他设置与图片中显示一致。</p>
 <img src="https://www.hicairo.com/zb_users/upload/2022/12/202212291672276274474231.webp">
 
 # 反馈与交流：
-在使用过程中，如果遇到问题，请使用Telegram与我联系。（ https://t.me/HiaiFeng ）
+<p>在使用过程中，如果遇到问题，请使用Telegram与我联系。（ https://t.me/HiaiFeng ）</p>
+<p>大家好，Doprax 非常关注用户使用体验。Hemen 先生及他的团队，为 Doprax 社区创建了 Discord 服务，如果您在使用过程中，遇到 Doprax 平台的相关问题或对平台有一些建议，请使用如下链接与官方联系。
+
+Hello everyone! Doprax pays great attention to user experience. Mr. Hemen and his team have created a Discord service for the Doprax community. If you encounter any problems or have any suggestions related to the Doprax platform during use, please contact the official using the link below.
+
+https://discord.gg/pFnGwTuXjk</p>
